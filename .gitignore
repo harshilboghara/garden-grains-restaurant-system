@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Uploaded media (runtime data, not source)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local scratch
+_to_delete/
+coverage/
